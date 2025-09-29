@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/OpenSans-Bold-webfont.eot');
+    src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+strong {font-family: 'open_sansregular', arial}
+
+body { font-family:'open_sanslight', arial, sans-serif; color:#666; line-height:2;}
+
+.container {width: 1030px !important;}
+
+
+.navkj { font-family: 'open_sansregular', arial}
+
+.navkj a {color:#666}
+
+.navkj a:visited {color:#666}
+
+.navkj a:hover {color:#D87300; text-decoration:none;}
+
+.navkj li { list-style:none; display: inline; margin-right:30px;}
+
+
+a {color:#D87300;}
+
+
+
+.mainp {background-image:url(kids.jpg); background-size:cover; width:100%; min-height:600px; background-position:center center; position:relative;}
+
+
+.blurb {position:absolute; right:0px; top:0px; padding:20px; background:#D87300;
+color:#fff; font-size:20px
+}
+
+.headp {background-image:url(superkids.jpg); background-size:cover; width:100%; height:150px; background-position:left center;}
+
+.services {background-image:url(services.jpg);}
+
+.profile {background-image:url(profile.jpg);}
+
+
+.location {background-image:url(location.jpg);}
+
+.contact {background-image:url(contact.jpg);}
+
+.orangebar { width:100%; height:200px; background:#D87300; }
+
+
+.titlebar { width:100%; height:60px; background:#D87300; }
+
+
+.greybar { width:100%; height:auto; background:#eee; padding:50px 0;  }
+
+
+.whitebar { width:100%; height:auto; background:#fff; padding:50px 0;  }
+
+.kjbut {background-color:#666 ; border:0px; border-radius:20px; opacity:0.8}
+
+.kjbut:hover {background-color:#666 ; border:0px; border-radius:20px; opacity:1}
+
+
+h1 {	font-family: Gill Sans , Gill Sans MT, sans-serif; font-size:40px; color:#fff; margin:0;
+}
+
+h2 {	font-family: Gill Sans , Gill Sans MT, sans-serif; font-size:30px; color:#D87300; display:inline;
+}
+
+
+h3 {	font-family: Gill Sans , Gill Sans MT, sans-serif; font-size:22px; color:#D87300; display:inline; line-height:40px;
+}
+
+.grey {color:#666}
+
+
+.background-image-overlay {
+    display:block;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background:url(stkj/images/background-image-overlay.png) repeat;
+}
